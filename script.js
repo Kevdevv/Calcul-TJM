@@ -13,6 +13,7 @@ function slideCalcul() {
 }
 
 selector.addEventListener('touchmove', slideCalcul)
+selector.addEventListener('mousemove', slideCalcul)
 document.getElementById('CDI').innerHTML = selector.value + ' €'
 document.getElementById('TJM').innerHTML = tjm + ' €'
 document.getElementById('charge').innerHTML = rest + ' €'
