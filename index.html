@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="all">
+        <h1>Combien facturer en tant que Développeur ?</h1>
+        <div class="card one">
+            <h2>Salaire brut annuel en CDI souhaité</h2>
+            <span id="CDI">0€</span>
+            <input step="0.1" value="40000" type="range" id="money-selector" min="17800" max="72500">
+
+        </div>
+        <div class="card two">
+            <h2>Taux journalier moyen à facturer</h2>
+            <span id="TJM">0€</span>
+            <div class="charge">
+                <h3>Il vous restera</h3><span id="charge">0€</span>
+                <p>Après déduction des charges et cotisation sociales</p>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>

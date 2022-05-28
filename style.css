@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background: rgb(248,248,255);
+}
+
+.all {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   background: rgb(248,248,255); 
+}
+
+h1 {
+    text-align: center;
+    margin-top: -20%;
+}
+
+h1, h2 {
+    color: #0f1158;
+}
+
+.card {
+    height: 280px;
+    width: 90%;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    background: white;
+}
+
+#CDI {
+    width: 160px;
+    height: 50px;
+    background: #9da1c3;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 8%;
+}
+
+#TJM {
+    width: 160px;
+    height: 50px;
+    background: #ff3c87;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#charge {
+    width: 80px;
+    height: 35px;
+    background: #9da1c3;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-left: 3%;
+}
+
+.charge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: #4f558a;
+}
+
+p {
+    color: #9da1c3;
+    max-width: 225px;
+}
+
+/*--------INPUT-RANGE---------*/
+
+input[type=range] {
+    height: 53px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 90%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 23px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000;
+    background: #9DA1C3;
+    border-radius: 50px;
+    border: 0px solid #000000;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 3px solid #9DA1C3;
+    height: 44px;
+    width: 44px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -12px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #9DA1C3;
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 23px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000;
+    background: #9DA1C3;
+    border-radius: 50px;
+    border: 0px solid #000000;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 3px solid #9DA1C3;
+    height: 44px;
+    width: 44px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 23px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #9DA1C3;
+    border: 0px solid #000000;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #9DA1C3;
+    border: 0px solid #000000;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #000000;
+    border: 3px solid #9DA1C3;
+    height: 44px;
+    width: 44px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #9DA1C3;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #9DA1C3;
+  }
+  /*--------INPUT-RANGE---------*/
